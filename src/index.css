@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fallback for environments without Tailwind setup */
+:root{
+  --bg:#f0f9ff;--muted:#64748b;--accent:#0077B6;
+}
+body{font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;background:var(--bg);color:#0f172a;margin:0}
+h1,h2,h3{font-family:'Playfair Display',Georgia,'Times New Roman',serif}
+img{max-width:100%;display:block}
